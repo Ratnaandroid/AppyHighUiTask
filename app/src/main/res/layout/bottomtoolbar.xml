@@ -1,0 +1,153 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <!-- Other components and views -->
+
+    <!-- <com.google.android.material.bottomappbar.BottomAppBar
+         android:id="@+id/bottom_app_bar"
+         style="@style/Widget.MaterialComponents.BottomAppBar"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_gravity="bottom"
+        android:elevation="@dimen/_5sdp"
+
+         app:fabAlignmentMode="center">
+         <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:padding="@dimen/_20sdp"
+
+             >
+             <TextView
+                 android:id="@+id/txtHome"
+                 android:layout_gravity="center"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="@string/home"
+                 android:drawableStart="@drawable/home"
+                 android:gravity="center"
+                 android:drawablePadding="@dimen/_5sdp"
+                 android:textColor="#9578FF"
+                 android:textSize="@dimen/_12sdp"
+                 android:fontFamily="@font/poppinsmedium"
+                 android:layout_alignParentLeft="true"
+                 android:layout_marginTop="@dimen/_2sdp"/>
+
+             <TextView
+                 android:id="@+id/txtBrowse"
+                 android:layout_gravity="center"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="@string/browse"
+                 android:drawableStart="@drawable/browse"
+                 android:gravity="center"
+                 android:drawablePadding="@dimen/_5sdp"
+                 android:textColor="#C0BFC3"
+                 android:textSize="@dimen/_12sdp"
+                 android:fontFamily="@font/poppinsmedium"
+                 android:layout_alignParentRight="true"
+                 android:layout_marginTop="@dimen/_2sdp"/>
+         </RelativeLayout>
+     </com.google.android.material.bottomappbar.BottomAppBar>-->
+
+
+    <!-- <com.google.android.material.floatingactionbutton.FloatingActionButton
+         android:id="@+id/fab"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+
+         android:src="@drawable/play"
+         android:layout_gravity="center"
+         app:layout_anchor="@id/bottom_app_bar"
+
+
+         />-->
+
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_14sdp"
+        android:background="@drawable/curvewithshadownew"
+
+
+        >
+
+        <TextView
+            android:id="@+id/txtHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:drawablePadding="@dimen/_5sdp"
+            android:drawableStart="@drawable/home"
+            android:fontFamily="@font/poppinsmedium"
+            android:gravity="center"
+            android:text="@string/home"
+            android:textColor="#9578FF"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:id="@+id/txtBrowse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center"
+            android:layout_marginRight="45dp"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:drawablePadding="@dimen/_5sdp"
+            android:drawableStart="@drawable/browse"
+            android:fontFamily="@font/poppinsmedium"
+            android:gravity="center"
+            android:text="@string/browse"
+            android:textColor="#C0BFC3"
+            android:textSize="@dimen/_12sdp" />
+    </RelativeLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgCircle"
+        android:layout_width="@dimen/_70sdp"
+        android:layout_height="@dimen/_70sdp"
+        android:padding="@dimen/_2sdp"
+        android:src="@drawable/camila"
+        app:layout_anchor="@+id/relativeLayout"
+        app:layout_anchorGravity="top|center"
+
+        />
+    <ImageView
+        android:layout_width="@dimen/_35sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:paddingLeft="@dimen/_5sdp"
+        android:src="@drawable/play"
+        app:layout_anchor="@+id/imgCircle"
+        app:layout_anchorGravity="center" />
+    <me.tankery.lib.circularseekbar.CircularSeekBar
+
+        android:layout_width="@dimen/_72sdp"
+        android:layout_height="@dimen/_72sdp"
+        android:layout_marginTop="-2dp"
+        app:cs_circle_stroke_width="3dp"
+        app:cs_circle_style="round"
+        app:cs_end_angle="80"
+        app:cs_maintain_equal_circle="true"
+        app:cs_negative_enabled="true"
+        app:cs_pointer_stroke_width="2dp"
+        app:cs_progress="100"
+        app:cs_start_angle="-180"
+        app:layout_anchor="@+id/relativeLayout"
+        app:layout_anchorGravity="top|center"
+
+        />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:layout_marginLeft="@dimen/_10sdp">
+
+    <LinearLayout
+        android:id="@+id/llayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+
+        android:orientation="vertical"
+        android:rotation="270">
+
+
+        <FrameLayout
+
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1">
+
+            <SeekBar
+                style="@style/MySeekBar"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:max="50"
+                android:progress="25"
+                android:splitTrack="false"
+                android:thumb="@drawable/dot_white" />
+
+            <include layout="@layout/lines_layout" />
+
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="16dp"
+            android:layout_weight="1">
+
+            <SeekBar
+                style="@style/MySeekBar"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:max="50"
+                android:progress="40"
+                android:splitTrack="false"
+                android:thumb="@drawable/dot_white" />
+
+            <include layout="@layout/lines_layout" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="16dp"
+            android:layout_weight="1">
+
+            <SeekBar
+                style="@style/MySeekBar"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:max="50"
+                android:progress="30"
+                android:splitTrack="false"
+                android:thumb="@drawable/dot_white" />
+
+            <include layout="@layout/lines_layout" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="16dp"
+            android:layout_weight="1">
+
+            <SeekBar
+                style="@style/MySeekBar"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:max="50"
+                android:progress="20"
+                android:splitTrack="false"
+                android:thumb="@drawable/dot_white" />
+
+            <include layout="@layout/lines_layout" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="16dp"
+            android:layout_weight="1">
+
+            <SeekBar
+                style="@style/MySeekBar"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:max="50"
+                android:progress="32"
+                android:splitTrack="false"
+                android:thumb="@drawable/dot_white" />
+
+            <include layout="@layout/lines_layout" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="16dp"
+            android:layout_weight="1">
+
+            <SeekBar
+                style="@style/MySeekBar"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:max="50"
+                android:progress="15"
+                android:splitTrack="false"
+                android:thumb="@drawable/dot_white" />
+
+            <include layout="@layout/lines_layout" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="16dp"
+            android:layout_weight="1">
+
+            <SeekBar
+                style="@style/MySeekBar"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:max="50"
+                android:progress="38"
+                android:splitTrack="false"
+                android:thumb="@drawable/dot_white" />
+
+            <include layout="@layout/lines_layout" />
+        </FrameLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="7"
+>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="65Hz"
+
+            android:layout_marginTop="@dimen/_1sdp"
+            android:layout_marginLeft="@dimen/_5sdp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="160Hz"
+
+            android:layout_marginTop="@dimen/_1sdp"
+            android:layout_marginLeft="@dimen/_6sdp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="400Hz"
+
+            android:layout_marginTop="@dimen/_1sdp"
+            android:layout_marginLeft="@dimen/_6sdp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1KHz"
+
+            android:layout_marginTop="@dimen/_1sdp"
+            android:layout_marginLeft="@dimen/_6sdp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2.5KHz"
+
+            android:layout_marginTop="@dimen/_1sdp"
+            android:layout_marginLeft="@dimen/_6sdp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6KHz"
+
+            android:layout_marginTop="@dimen/_1sdp"
+            android:layout_marginLeft="@dimen/_6sdp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="14KHz"
+
+            android:layout_marginTop="@dimen/_1sdp"
+            android:layout_marginLeft="@dimen/_6sdp"/>
+
+    </LinearLayout>
+</LinearLayout>

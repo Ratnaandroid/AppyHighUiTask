@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <font
+        android:font="@font/futuramedium"
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        tools:ignore="ResourceCycle" />
+    <font
+        android:font="@font/futuraboldfont"
+        tools:ignore="ResourceCycle"
+        android:fontStyle="normal"/>
+    <font
+        android:font="@font/futurabookfont"
+        tools:ignore="ResourceCycle"
+        android:fontStyle="normal"/>
+
+</font-family>

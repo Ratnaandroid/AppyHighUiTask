@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorwhite"
+    android:padding="@dimen/_20sdp"
+    tools:context="com.ratna.appyhighuitask.activities.MpCutterActivity">
+
+    <ImageView
+        android:id="@+id/imgBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-6dp"
+        android:src="@drawable/back" />
+
+    <ImageView
+        android:id="@+id/imgmusic"
+        android:layout_width="@dimen/_21sdp"
+        android:layout_height="@dimen/_24sdp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/music" />
+
+    <TextView
+        android:id="@+id/txtMpcutter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgBack"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:fontFamily="@font/futuraboldfont"
+        android:text="@string/mp3cutter"
+        android:textSize="@dimen/_26sdp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtMpcutter"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:fontFamily="@font/futuramedium"
+        android:text="@string/cutasong"
+        android:textSize="@dimen/_14sdp" />
+
+    <ImageView
+        android:id="@+id/imgcut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/rectangle" />
+
+    <TextView
+        android:id="@+id/txtcutasong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgcut"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/_18sdp"
+        android:background="@drawable/bg_cut"
+        android:gravity="center"
+        android:text="@string/cutsong"
+        android:textColor="#785CE3"
+        android:textSize="@dimen/_16sdp" />
+
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">AppyHighUiTask</string>
+    <string name="playername">Player Name</string>
+    <string name="topartist">Top Artist</string>
+    <string name="seeall">See All</string>
+    <string name="topartistinyourlibrary">Top Artist in Your Library</string>
+    <string name="topalbum">Top Album</string>
+    <string name="topalbumsplayed">Top Albums Played</string>
+    <string name="latestadded">Latest Added</string>
+    <string name="latesttracks">Latest added Tracks to Your Phone</string>
+    <string name="mp3cutter">Mp3 Cutter</string>
+    <string name="addtoplaylist">Add to Playlist</string>
+    <string name="bassbooster">Bass_booster</string>
+    <string name="cutasong">Cut a song and use it as Music, Alarm, Ringtone or Notification</string>
+    <string name="cutsong">Cut a Song</string>
+    <string name="createnewplayist">Create New Playlist</string>
+    <string name="bassboosternew">Bass Booster</string>
+    <string name="home">Home</string>
+    <string name="browse">Browse</string>
+    <string name="equaliser">Equaliser</string>
+    <string name="reverb">Reverb</string>
+</resources>

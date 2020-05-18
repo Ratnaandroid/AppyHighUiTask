@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_10sdp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="@dimen/_50sdp"
+        app:cardCornerRadius="@dimen/_15sdp"
+        android:elevation="@dimen/_15sdp">
+        <ImageView
+            android:id="@+id/imglatestadd"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:src="@drawable/taylorswift"
+            />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/txtaddedname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_toRightOf="@+id/cardview"
+        android:textSize="@dimen/_14sdp"
+        android:text="sunflower"
+        android:fontFamily="@font/futuramedium"
+        android:textColor="#232437"
+      />
+
+    <TextView
+        android:id="@+id/txtaddeddirectory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_toRightOf="@+id/cardview"
+        android:textSize="@dimen/_14sdp"
+        android:text="Swae lee,post malone"
+        android:fontFamily="@font/futuramedium"
+        android:textColor="#232437"
+        android:layout_below="@+id/txtaddedname"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/dots"
+        android:layout_centerInParent="true"/>
+
+
+</RelativeLayout>
